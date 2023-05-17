@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+
+  background-color: #04AA6D;
+  }
+
+</style>
+</head>
+
+
+
+
+<body background="sarfraj1.jpeg">
+<img  src="bbd img1.jpg" width="140"height="140">
+<center>
+<div style="position: absolute;left:320px;top:0px;">
+<img src="cooltext429287220980695.png" height=150> 
+</div>
+</center>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="About.html"target="myframe">About</a></li>
+   <li><a href="Courses.html"target="myframe">Courses</a></li>
+  <li><a href="Department.html"target="myframe">Department</a></li>
+    <li><a href="FEEDETAILS.html"target="myframe">FEEDETAILS</a></li>
+     <li><a href="contact.html"target="myframe">contact</a></li>
+  
+</ul>
+<div style="position: absolute;left;0px;">
+<img  src="bbd img2.jpg" width="1500" height="600">
+<iframe width="1500" height="1500" name="myframe">
+</iframe>
+</body>
+</html>
